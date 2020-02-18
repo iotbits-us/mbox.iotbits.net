@@ -14,7 +14,9 @@ module.exports = {
         src: "img/logo.svg"
       },
       links: [
+        { href: "https://iotbits.net", label: "Home", position: "left" },
         { to: "docs/introduction", label: "Docs", position: "left" },
+        { href: "https://iotbits.net", label: "Order", position: "left" },
         {
           href: "https://github.com/iotbits-us/",
           label: "GitHub",
