@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/feature-easy-to-use.svg',
     description: (
       <>
-        Thanks to its built-in web configuration portal accessible via Wi-Fi, 
+        Thanks to its built-in Web-UI accessible via Wi-Fi, 
         its initial setup and management is extremely easy and intuitive.
       </>
     ),
@@ -33,7 +33,7 @@ const features = [
     description: (
       <>
         Extend or customize the operating mode by modifying its manifest file, 
-        a user-editable JSON file that exposes the settings and functions of each slave.
+        a user-editable JSON file that exposes registers configuration and functions of each slave.
       </>
     ),
   },
