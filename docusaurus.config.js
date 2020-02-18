@@ -1,7 +1,7 @@
 module.exports = {
   title: 'ModbusBox',
   tagline: 'Connecting industrial grade devices to the cloud',
-  url: 'https://mbox.iotbits.net',
+  url: 'https://mbox-iotbits.netlify.com',
   baseUrl: '/',
   favicon: 'img/favicon.svg',
   organizationName: 'iotbits-us', // Usually your GitHub org/user name.
