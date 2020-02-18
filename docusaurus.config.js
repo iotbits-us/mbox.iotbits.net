@@ -14,9 +14,10 @@ module.exports = {
         src: "img/logo.svg"
       },
       links: [
-        { href: "https://iotbits.net", label: "Home", position: "left" },
+        { to: "/", label: "Home", position: "left" },
         { to: "docs/introduction", label: "Docs", position: "left" },
-        { href: "https://iotbits.net", label: "Order", position: "left" },
+        { href: "https://blog.iotbits.net", label: "Blog", position: "left" },
+        { href: "https://iotbits.net/products", label: "Order", position: "left" },
         {
           href: "https://github.com/iotbits-us/",
           label: "GitHub",
@@ -48,16 +49,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "IOTBITS Blog",
+              label: "Blog",
               href: "https://blog.iotbits.net"
-            },
-            {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com"
             },
             {
               label: "Discord",
               href: "https://discordapp.com/"
+            },
+            {
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com"
             }
           ]
         },
