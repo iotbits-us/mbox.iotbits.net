@@ -7,8 +7,9 @@
 
 module.exports = {
   someSidebar: {
-    Introduction: ['description', 'getting-started'],
-    Settings: ['general-settings','wifi-settings', 'cloud-settings', 'slaves-settings'],   
-    Advanced: ['manifest'],
+    'ModbusBox': ['introduction', 'hardware-description'],
+    'Getting Started': ['installation', 'initial-setup', 'configuration'],
+    'Guides': ['start-sending-data'],   
+    'Advanced Guides': ['modifying-manifest-file', 'starting-setup-mode'],
   },
 };

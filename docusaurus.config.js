@@ -1,116 +1,94 @@
 module.exports = {
-  title: 'ModbusBox',
-  tagline: 'Connecting industrial grade devices to the cloud',
-  url: 'https://mbox-iotbits.netlify.com',
-  baseUrl: '/',
-  favicon: 'img/favicon.svg',
-  organizationName: 'iotbits-us', // Usually your GitHub org/user name.
-  projectName: 'blog.iotbits.net', // Usually your repo name.
+  title: "ModbusBox",
+  tagline: "Connecting industrial grade devices to the cloud",
+  url: "https://mbox-iotbits.netlify.com",
+  baseUrl: "/",
+  favicon: "img/favicon.ico",
+  organizationName: "iotbits-us", // Usually your GitHub org/user name.
+  projectName: "blog.iotbits.net", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'ModbusBox',
+      title: "ModbusBox",
       logo: {
-        alt: 'ModbusBox',
-        src: 'img/logo.svg',
+        alt: "ModbusBox",
+        src: "img/logo.svg"
       },
       links: [
-        {to: 'docs/getting-started', label: 'Docs', position: 'left'},
+        { to: "docs/introduction", label: "Docs", position: "left" },
         {
-          href: 'https://github.com/iotbits-us/',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+          href: "https://github.com/iotbits-us/",
+          label: "GitHub",
+          position: "right"
+        }
+      ]
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting started',
-              to: 'docs/getting-started',
+              label: "Introduction",
+              to: "docs/introduction"
             },
             {
-              label: 'Getting started',
-              to: 'docs/getting-started',
-            },
-          ],
-        },
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting started',
-              to: 'docs/getting-started',
+              label: "Initial Setup",
+              to: "docs/initial-setup"
             },
             {
-              label: 'Getting started',
-              to: 'docs/getting-started',
-            },
-          ],
-        },
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting started',
-              to: 'docs/getting-started',
-            },
-            {
-              label: 'Getting started',
-              to: 'docs/getting-started',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/',
+              label: "Start Sending Data",
+              to: "docs/start-sending-data"
             }
-          ],
+          ]
         },
         {
-          title: 'Social',
+          title: "Community",
           items: [
             {
-              label: 'Blog',
-              href: 'https://blog.iotbits.net',
+              label: "IOTBITS Blog",
+              href: "https://blog.iotbits.net"
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/iotbits-us',
+              label: "Stack Overflow",
+              href: "https://stackoverflow.com"
             },
             {
-              label: 'Youtube',
-              href: 'https://www.youtube.com/channel/UCWUi3F8CQTt2Cm-EEviW8mQ',
-            },
-          ],
+              label: "Discord",
+              href: "https://discordapp.com/"
+            }
+          ]
         },
+        {
+          title: "Social",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/iotbits-us"
+            },
+            {
+              label: "Youtube",
+              href: "https://www.youtube.com/channel/UCWUi3F8CQTt2Cm-EEviW8mQ"
+            }
+          ]
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IOTBITS`,
-    },
+      copyright: `Copyright © ${new Date().getFullYear()} IOTBITS`
+    }
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            'https://github.com/iotbits-us/mbox.iotbits.net/edit/master/website/',
+            "https://github.com/iotbits-us/mbox.iotbits.net/edit/master/website/"
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
+          customCss: require.resolve("./src/css/custom.css")
+        }
+      }
+    ]
+  ]
 };
