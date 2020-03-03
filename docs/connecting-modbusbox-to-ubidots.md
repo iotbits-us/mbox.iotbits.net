@@ -48,7 +48,7 @@ ModbusBox is easy to use thanks to its embedded Web-UI accessible via Wi-Fi.  Wh
 
 
 
-![sample-integration-scheme-with-ubidots](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/dashboard-numbers.png)
+![sample-integration-scheme-with-ubidots](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/sample-integration-scheme-with-ubidots.png)
 
 **Figure 1**
 
@@ -78,7 +78,7 @@ Please observe carefully the ModbusBox hardware, we recommend to print this sect
 
 
 
-![modbusbox-hardware-description](./connecting-modbusbox-to-ubidots/modbusbox-hardware-description.png)
+![modbusbox-hardware-description](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/modbusbox-hardware-description.png)
 
 **Figure 2**
 
@@ -95,7 +95,7 @@ Both devices are identical from the hardware point of view. What makes them diff
 
 
 
-![modbusbox-connect-eastron](./connecting-modbusbox-to-ubidots/modbusbox-connect-eastron.png)
+![modbusbox-connect-eastron](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/modbusbox-connect-eastron.png)
 
 **Figure 3**
 
@@ -105,7 +105,7 @@ Both devices are identical from the hardware point of view. What makes them diff
 
 As you can see in **Figure 4**, there are three control buttons located on the PCB. These control buttons allows the user to switch between operation modes and to perform other advanced procedures.
 
-![modbusbox-control-buttons](./connecting-modbusbox-to-ubidots/modbusbox-control-buttons.png)
+![modbusbox-control-buttons](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/modbusbox-control-buttons.png)
 
 **Figure 4**
 
@@ -115,7 +115,7 @@ The **Setup** control button is used to put the device in **Setup Mode** and the
 
 When the ModbusBox is started with its factory configuration, there is no procedure required to enter in setup mode, in such scenario the device enters automatically in setup mode as soon it powers on. When in Setup Mode a Wi-Fi network search can take place in your Android/iOS mobile device or PC and look for SSID name **MB-B1W**  or **MB-A4W** follow by other characters that represents the unique identification of the chip as shown bellow in **Figure 5**.
 
-![modbusbox-ap-ssid-pc](./connecting-modbusbox-to-ubidots/modbusbox-ap-ssid.png)
+![modbusbox-ap-ssid-pc](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/modbusbox-ap-ssid.png)
 
 **Figure 5**
 
@@ -205,7 +205,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
 * Click on Wi-Fi connection and look for Wi-Fi station that starts with **MBOX**.
 
-![windows-wifi-scan](./connecting-modbusbox-to-ubidots/windows-wifi-scan.png)
+![windows-wifi-scan](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/windows-wifi-scan.png)
 
 **Figure 6**
 
@@ -219,7 +219,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
   
 
-![web-ui-change-default-password](./connecting-modbusbox-to-ubidots/web-ui-change-default-password.png)
+![web-ui-change-default-password](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/web-ui-change-default-password.png)
 
 **Figure 7**
 
@@ -233,7 +233,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
   
 
-![web-ui-wifi-scan](./connecting-modbusbox-to-ubidots/web-ui-wifi-scan.png)
+![web-ui-wifi-scan](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/web-ui-wifi-scan.png)
 
 **Figure 8**
 
@@ -243,7 +243,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
 
 
-![web-ui-wifi-scan-done](./connecting-modbusbox-to-ubidots/web-ui-wifi-scan-done.png)
+![web-ui-wifi-scan-done](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/web-ui-wifi-scan-done.png)
 
 **Figure 9**
 
@@ -259,7 +259,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
 
 
-![web-ui-wifi-scan-done-restart-required](./connecting-modbusbox-to-ubidots/web-ui-wifi-scan-done-restart-required.png)
+![web-ui-wifi-scan-done-restart-required](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/web-ui-wifi-scan-done-restart-required.png)
 
 **Figure 10**
 
@@ -281,7 +281,7 @@ At this time we will only change the device hostname to easily connect to the Mo
 
 
 
-![web-ui-change-hostname](./connecting-modbusbox-to-ubidots/web-ui-change-hostname.png)
+![web-ui-change-hostname](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/web-ui-change-hostname.png)
 
 **Figure 11**
 
@@ -307,7 +307,7 @@ Ex: http://MBOX-AW-A2C40A24:80
 
 A popup window will appear asking for the username and password. The username is always **admin** and the password that you set as shown in **Figure 7**. 
 
-![login](./connecting-modbusbox-to-ubidots/login.png)
+![login](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/login.png)
 
 **Figure 12**
 
@@ -317,7 +317,7 @@ After successfully entered the credentials, you will be redirected to the dashbo
 
 
 
-![dashboard](./connecting-modbusbox-to-ubidots/dashboard-numbers.png)
+![dashboard](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/dashboard-numbers.png)
 
 **Figure 13**
 
