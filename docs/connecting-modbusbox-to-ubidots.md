@@ -4,8 +4,6 @@ title: Connecting ModbusBox to Ubidots
 sidebar_label: ModbusBox and Ubidots
 ---
 
-# Connecting ModbusBox to Ubidots
-
 This documentation aim to guide through the process of getting the ModbusBox connected to Ubidots.
 
 
