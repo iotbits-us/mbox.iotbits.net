@@ -48,7 +48,7 @@ ModbusBox is easy to use thanks to its embedded Web-UI accessible via Wi-Fi.  Wh
 
 
 
-![sample-integration-scheme-with-ubidots](static/img/connecting-modbusbox-to-ubidots/dashboard-numbers.png)
+![sample-integration-scheme-with-ubidots](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/connecting-modbusbox-to-ubidots/dashboard-numbers.png)
 
 **Figure 1**
 
