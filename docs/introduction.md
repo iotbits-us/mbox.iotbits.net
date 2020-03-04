@@ -8,7 +8,7 @@ sidebar_label: Introduction
 
 ## Introducing ModbusBox
 
-In the middle of an era in which the IoT world has become very popular and it is increasingly necessary to monitor and control our devices from the Internet, we have developed **ModbusBox**, the best and most effective way to monitor and control virtually any equipment that communicates through Modbus RTU from any cloud platform that uses MQTT as its communication protocol.
+In the middle of an era in which the IoT world has become very popular and it is increasingly necessary to monitor and control our devices from the Internet, we have developed ModbusBox, the best and most effective way to monitor and control virtually any equipment that communicates through Modbus RTU from any cloud platform that uses MQTT as its communication protocol.
 
 
 
@@ -19,7 +19,7 @@ ModbusBox connects modbus slaves to the cloud. Its firmware, being in charge of 
 ### Main Features
 
 * Wi-Fi Ready
-* Embedded WebUI for easy installation and maintenance
+* Embedded Web-UI for easy installation and maintenance
 * Uses a JSON file as manifest to easily add new modbus slaves
 
 
@@ -36,8 +36,8 @@ A modern and intuitive WebUI (Web User Interface) has been integrated into our d
 
 A key factor that makes ModbusBox flexible is its manifest file that is available to the user exposed in the file system system. 
 
-This manifest file is in **JSON** format and can be downloaded and uploaded from the **WebUI**. It is possible to modify the registers and functions of each of the slaves included in ModbusBox by default as well as add new slaves following the instructions provided in the official documentation or using our [Manifest Editor](mbox.iotbits.net/manifest-editor) web app. 
+This manifest file is in **JSON** format and can be downloaded and uploaded from the **Web-UI**. It is possible to modify the registers and functions of each of the slaves included in ModbusBox by default as well as add new slaves following the instructions provided in the official documentation or using our [Manifest Editor](mbox.iotbits.net/manifest-editor) web app. 
 
 ## Current Limitations
 
-As we have stated before, our **ModbusBox** only works with slaves that uses **Modbus RTU** as its communication protocol. Other communications protocol such as **Modbus TCP** will be added in further development of this product but at this time it only supports **Modbus RTU**. 
+As we have stated before, our ModbusBox only works with slaves that uses Modbus RTU as its communication protocol. Other communications protocol such as Modbus TCP will be added in further development of this product but at this time it only supports Modbus RTU. 

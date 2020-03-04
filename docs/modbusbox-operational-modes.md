@@ -23,13 +23,13 @@ The **Normal Mode** is the default operational mode in which the device performs
 
 We refer to polling cycle as the event of reading data from all configured slaves. The polling cycle starts when the polling interval reaches its starting point and it ends when the process of reading every slave's registers finishes with the last slave in the queue.
 
-> Notice that **polling cycle** enabled/disabled state and **polling interval** can be managed by the user through the WebUI.
+> Notice that **polling cycle** enabled/disabled state and **polling interval** can be managed by the user through the Web-UI.
 
 ### Cloud Data Reporting
 
 The Cloud Data Reporting process starts when the polling cycle finishes if enabled. This is the process that sends the data gathered from the selected slaves to the Cloud platform via MQTT.
 
-> Notice that **Cloud Data Reporting** can be enabled or disabled by the user through the WebUI.
+> Notice that **Cloud Data Reporting** can be enabled or disabled by the user through the Web-UI.
 
 
 
