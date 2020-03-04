@@ -14,11 +14,11 @@ In the middle of an era in which the IoT world has become very popular and it is
 
 ## Device Overview
 
-ModbusBox is the middleware between its Modbus slaves and the cloud. Its firmware, being in charge of reading all the slaves connected to it not only does a great job recovering data from modbus slaves and sending them to the cloud through MQTT, but also makes the process Stable, concise and easy to configure and monitor.
+ModbusBox connects modbus slaves to the cloud. Its firmware, being in charge of reading all the slaves connected to it, not only does a great job polling data from modbus slaves and sending them to the cloud through MQTT, but also makes the process steady and easy to configure and monitor.
 
 ### Main Features
 
-* Wi-Fi ready
+* Wi-Fi Ready
 * Embedded WebUI for easy installation and maintenance
 * Uses a JSON file as manifest to easily add new modbus slaves
 
@@ -26,7 +26,7 @@ ModbusBox is the middleware between its Modbus slaves and the cloud. Its firmwar
 
 ### Wi-Fi Ready
 
-The device has a IEEE 802.11 Wi-Fi interface that allows connecting to the the local network and therefore the internet. It also creates a Wi-Fi Access Point when in **Setup Mode** to allows direct connection to the device when the device its not yet configured to connect to a Wi-Fi Access Point. 
+The device has a **IEEE 802.11** Wi-Fi interface that allows connecting to the the local network and therefore the internet. It also creates a Wi-Fi Access Point when in **Setup Mode** to allows direct connection to the device when the device its not yet configured to connect to a Wi-Fi Access Point. 
 
 ### Embedded WebUI
 
