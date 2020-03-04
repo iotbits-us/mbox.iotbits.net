@@ -12,6 +12,17 @@ Our device has been carefully designed to meet our standards of durability and r
 
 
 
+## Models
+
+ModbusBox its being manufactured in two variations or models. 
+
+| Model  | Serie | Supported Slaves | Options  | Description                                                  |
+| :----: | :---: | :--------------: | :------: | :----------------------------------------------------------- |
+| MB-A4W |   A   |        4         | W: Wi-Fi | Advanced model that supports up to 4 slaves connected simultaneously |
+| MB-B1W |   B   |        1         | W: Wi-Fi | Basic model that supports only one slave                     |
+
+
+
 ## Description
 
 The following image shows the internal components, LEDs, connectors and buttons of our ModbusBox. Please observe carefully, we recommend to print this section for a better understanding of any further explanation of the modbus usage and setup.
