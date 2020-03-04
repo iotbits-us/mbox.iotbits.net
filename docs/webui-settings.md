@@ -1,7 +1,7 @@
 ---
-id: configuration
-title: Configuration
-sidebar_label: Configuration
+id: webui-settings
+title: Settings
+sidebar_label: Settings
 ---
 
 :::important

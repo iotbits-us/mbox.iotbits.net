@@ -7,8 +7,9 @@
 
 module.exports = {
   someSidebar: {
-    'ModbusBox': ['introduction', 'hardware-info'],
-    'Getting Started': ['installation', 'initial-setup', 'configuration'],
+    'ModbusBox': ['introduction', 'hardware-info', 'modbusbox-operational-modes', 'modbusbox-cloud-data-modes', 'modbusbox-manifest-file'],
+    'Getting Started': ['wiring', 'initial-setup'],
+    'Web-UI': ['webui-dashboard', 'webui-settings'],
     'Guides': ['start-sending-data', 'connecting-modbusbox-to-ubidots', 'restoring-factory-state'],   
     'Advanced Guides': ['modifying-manifest-file', 'starting-setup-mode', 'uploading-firmware-programming-mode'],
   },

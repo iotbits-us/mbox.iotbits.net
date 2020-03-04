@@ -1,7 +1,7 @@
 ---
-id: installation
-title: Installation
-sidebar_label: Installation
+id: modbusbox-manifest-file
+title: Manifest File
+sidebar_label: Manifest File
 ---
 
 :::important
