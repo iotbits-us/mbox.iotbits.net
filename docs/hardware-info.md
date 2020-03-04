@@ -8,13 +8,13 @@ sidebar_label: Hardware Information
 
 Our device has been carefully designed to meet our standards of durability and requirements for working in industrial environments. 
 
-Its Wi-Fi connectivity complies with the **IEEE 802.11** standards and certifications provided by the manufacturer of its microcontroller, the [ESP32](https://www.espressif.com/en/products/hardware/esp32/resources) manufactured by [ESPRESSIF SYSTEMS](https://www.espressif.com/).
+> Its Wi-Fi connectivity complies with the **IEEE 802.11** standards and certifications provided by the manufacturer of its microcontroller, the [ESP32](https://www.espressif.com/en/products/hardware/esp32/resources) manufactured by [ESPRESSIF SYSTEMS](https://www.espressif.com/).
 
 
 
 ## Description
 
-The following figure shows the internal components, LEDs, connectors and buttons of our ModbusBox. Please observe carefully, we recommend to print this section for a better understanding of any further explanation of the modbus usage and setup.
+The following image shows the internal components, LEDs, connectors and buttons of our ModbusBox. Please observe carefully, we recommend to print this section for a better understanding of any further explanation of the modbus usage and setup.
 
 
 
@@ -162,7 +162,7 @@ ModbusBox has only one connector exposed, that is the **RJ45** connector used to
 
 There are other connectors located in the ModbusBox PCB that may be used by developers when using the ModbusBox for with their own custom firmware.
 
-> Details about this additional connectors will be added to this documentation in the future.
+> Details about those additional connectors will be added to this documentation in the future.
 
 
 
