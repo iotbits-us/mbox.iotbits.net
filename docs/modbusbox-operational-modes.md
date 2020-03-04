@@ -37,7 +37,7 @@ The Cloud Data Reporting process starts when the polling cycle finishes if enabl
 
 **Setup Mode** is an optional operational mode to perform the initial setup of the device or to access its configuration while not yet connected to an Wi-Fi network.
 
-When the ModbusBox has not being configure for the first time, it will automatically enter in Setup Mode allowing the user to connect to its Wi-Fi Access Point and open the Web-UI to perform the initial setup with ease. 
+When the ModbusBox has not been configure for the first time, it will automatically enter in Setup Mode allowing the user to connect to its Wi-Fi Access Point and open the Web-UI to perform the initial setup with ease. 
 
 When the device enters in Setup Mode, a Wi-Fi Access Point will be created with the device's hostname as the SSID. By default the device's hostname starts with **MBOX** follow by the device model code and finally the **Chip ID** which is generated from the device's MAC Address. 
 
