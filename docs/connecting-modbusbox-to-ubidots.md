@@ -111,7 +111,7 @@ As you can see in **Figure 4**, there are three control buttons located on the P
 
 The **Setup** control button is used to put the device in **Setup Mode** and the Reset control button is used to perform a Factory Reset. 
 
-When the ModbusBox is started with its factory configuration, there is no procedure required to enter in setup mode, in such scenario the device enters automatically in setup mode as soon it powers on. When in Setup Mode a Wi-Fi network search can take place in your Android/iOS mobile device or PC and look for SSID name **MB-B1W**  or **MB-A4W** follow by other characters that represents the unique identification of the chip as shown bellow in **Figure 5**.
+When the ModbusBox is started with its factory configuration, there is no procedure required to enter in setup mode, in such scenario the device enters automatically in setup mode as soon it powers on. When in Setup Mode a Wi-Fi network search can take place in your Android/iOS mobile device or PC and look for SSID name **MB-B1W** or **MB-A4W** follow by other characters that represents the unique identification of the chip as shown bellow in **Figure 5**.
 
 ![modbusbox-ap-ssid-pc](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/modbusbox-ap-ssid.png)
 
@@ -121,7 +121,7 @@ When the ModbusBox is started with its factory configuration, there is no proced
 
 **Setup Mode** : Press and hold **Setup** button and then press and release **Reset** button while holding **Setup** button for  3 seconds or until status LED shown in **Figure 2** change from fading pattern to fast green, then search Wi-Fi SSID name in your phone or PC as described previously.
 
-**Programing Mode :** This mode is only for developers that get the ModbusBox without any firmware loaded  on it and want to upload their own firmware. To enter into this mode, press and hold  **Programming** button and  quick press and release  **Reset** button. 
+**Programing Mode :** This mode is only for developers that get the ModbusBox without any firmware loaded  on it and want to upload their own firmware. To enter into this mode, press and hold **Programming** button and  quick press and release **Reset** button. 
 
 **Factory Reset :** To perform a factory reset, press and hold **Setup** button then quick press of Reset button, keeping pressed **Setup** button for about 10 seconds until status LED turns off and quick turn on back again with the LED fading in green color. After performing a factory reset, the ModbusBox enters automatically in **Setup Mode** and any previous configuration from the device is removed. 
 
@@ -133,14 +133,12 @@ LEDs indicators on the device are very useful to quickly understand the operatio
 
 The following tables shows the LEDs behaviors.
 
-
-
-| Number in figure 2 | Name on PCB | What is does                    | Description                                                  |   Color   |
-| :----------------: | :---------: | :------------------------------ | :----------------------------------------------------------- | :-------: |
-|         10         |     D3      | Indicates DC input voltage      | When OFF indicates no power voltage detected                 |     🟢     |
-|         5          |     D9      | Indicates MQTT activity         | It flashes every time an MQTT message is sent or received    |     ⚪     |
-|         9          |     D4      | Modbus master request           | It blinks when ModbusBox try to communicate with modbus slave | &#x1F535; |
-|         9          |     D8      | Modbus Response from from slave | Its blink when ModbusBox has received a response from slave  |     🔴     |
+| Item number in figure 1 | Label on PCB | Indication                 | Description                                                  |   Color   |
+| :---------------------: | :----------: | :------------------------- | :----------------------------------------------------------- | :-------: |
+|           10            |      D3      | DC input voltage           | When ON indicates power voltage has been detected            |     🟢     |
+|            5            |      D9      | MQTT activity              | It blinks every time an MQTT message is sent or received     |     ⚪     |
+|            9            |      D4      | Modbus master request      | It blinks when ModbusBox try to communicate with a modbus slave | &#x1F535; |
+|            9            |      D8      | Modbus response from slave | Its blinks when ModbusBox has received a response from slave |     🔴     |
 
 **Table 2**
 
@@ -148,7 +146,7 @@ The following tables shows the LEDs behaviors.
 
 #### Status LED Colors
 
-The **Status LED**, labeled as **D12** on the PCB and marked with number 7 in **Figure 2**, is color dependent upon device statuses and alarms.
+The **Status LED**, labeled as **D2** on the PCB and marked with number 7 in **Figure 2**, is color dependent upon device statuses and alarms.
 
 The following tables shows the color patterns of different statuses and alarms indications of the **Status LED** on the ModbusBox.
 
