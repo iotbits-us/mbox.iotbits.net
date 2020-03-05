@@ -4,6 +4,10 @@ title: Cloud Data Modes
 sidebar_label: Cloud Data Modes
 ---
 
+
+
+## Cloud Data Modes
+
 When sending data to the cloud platform, the MQTT topic and payload to be sent, must match the receiving platforms requirements of topic as well as the payload structure. Since one of the major features of the ModbusBox is its flexibility, we made possible to select different profiles for the topic and data structure and we called it **Cloud Data Modes**.
 
 There are currently three **Cloud Data Modes** available:
