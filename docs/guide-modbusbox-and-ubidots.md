@@ -364,3 +364,15 @@ Before continuing, create a [Ubidots Stem account](https://ubidots.com/stem/) an
 Now let’s setup the ModbusBox cloud section with the data of the Ubidots account.
 
 ![web-ui-cloud-setup-for-ubidots](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-cloud-setup-for-ubidots.png)
+
+
+
+Please make sure you set the parameters as follow:
+
+* **Server Address**: industrial.api.ubidots.com
+
+* **Server Port**: 1883
+
+* **Token**: Token obtained from Ubidots
+
+* **Data Cloud Mode**: Ubidots Compatibility Mode
