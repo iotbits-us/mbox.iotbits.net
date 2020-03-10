@@ -345,13 +345,15 @@ Let’s move now to the slave section, and click in add.
 
 ![web-ui-add-slave](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-add-slave.png)
 
-![web-ui-add-slave](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-new-slave-setup.png)
+![web-ui-new-slave-setup](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-new-slave-setup.png)
 
 ## 6. ModbusBox Cloud Configuration (Ubidots)
 
-Make sure have ready the following:
 
-- Have ready  an  stem account with Ubidots : https://ubidots.com/stem/
-- Have your Ubidots  account token on hand.  
-- Ubidots server address:  industrial.api.ubidots.com  
-- Server Port: 1883.
+
+Make sure you have completed the following:
+
+* Create a [Ubidots Stem account](https://ubidots.com/stem/)
+* Have your Ubidots account token
+
+![ubidots-token](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/ubidots-token.png)
