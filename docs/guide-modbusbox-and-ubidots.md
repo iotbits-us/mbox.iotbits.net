@@ -351,9 +351,16 @@ Let’s move now to the slave section, and click in add.
 
 
 
-Make sure you have completed the following:
+### Get your Ubidots Stem Account
 
-* Create a [Ubidots Stem account](https://ubidots.com/stem/)
-* Have your Ubidots account token
+Before continuing, create a [Ubidots Stem account](https://ubidots.com/stem/) and get your Ubidots account token from Ubidots dashboard as follow:
 
 ![ubidots-token](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/ubidots-token.png)
+
+
+
+### ModbusBox Cloud Configuration
+
+Now let’s setup the ModbusBox cloud section with the data of the Ubidots account.
+
+![web-ui-cloud-setup-for-ubidots](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-cloud-setup-for-ubidots.png)
