@@ -26,7 +26,7 @@ If you plan to use your own MQTT broker and visualization tool, use the **Standa
 
 In the **Standard Mode**, the host which is the ModbusBox, is considered the root device. 
 
-In this operational mode, the following topic is used to publish all kind of messages:
+In this data mode, the following topic is used to publish all kind of messages:
 
 ```bash
 /v1.6/devices/{device_name}
@@ -135,16 +135,20 @@ Table 2
 
 ### Ubidots Compatibility Mode
 
-Here goes a detailed description of the Ubidots Compatibility Mode.
+Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/#mqtt) for details.
 
-
-
-### Extended Ubidots Compatibility Mode
-
-Here goes a detailed description of the Extended Ubidots Compatibility Mode.
-
-
+In this data mode, each slave is considered as a device. **Host Status** and **Notification** messages won't be sent. 
 
 :::important
 We are currently working on this documentation. Please come back later.
+:::
+
+### Extended Ubidots Compatibility Mode
+
+Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/#mqtt) for details.
+
+In this data mode, the host and each slave are considered devices. The host is displayed as a device with its status variables and alarms. Each slave is shown as a separate device with its variables.
+
+:::important
+We are currently working on this section. Please come back later.
 :::
