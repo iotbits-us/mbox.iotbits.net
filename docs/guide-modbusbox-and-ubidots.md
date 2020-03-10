@@ -1,6 +1,6 @@
 ---
-id: connecting-modbusbox-to-ubidots
-title: Connecting ModbusBox to Ubidots
+id: guide-modbusbox-and-ubidots
+title: ModbusBox and Ubidots
 sidebar_label: ModbusBox and Ubidots
 ---
 

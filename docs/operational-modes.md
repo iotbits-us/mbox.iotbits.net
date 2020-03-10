@@ -1,5 +1,5 @@
 ---
-id: modbusbox-operational-modes
+id: operational-modes
 title: Operational Modes
 sidebar_label: Operational Modes
 ---

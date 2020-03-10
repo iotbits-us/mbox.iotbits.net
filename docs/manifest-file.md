@@ -1,5 +1,5 @@
 ---
-id: modbusbox-manifest-file
+id: manifest-file
 title: Manifest File
 sidebar_label: Manifest File
 ---
