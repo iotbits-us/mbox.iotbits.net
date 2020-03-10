@@ -1,7 +1,7 @@
 ---
 id: guide-modbusbox-and-ubidots
-title: ModbusBox and Ubidots
-sidebar_label: ModbusBox and Ubidots
+title: Complete Guide to ModbusBox and Ubidots
+sidebar_label: Complete Guide to ModbusBox and Ubidots
 ---
 
 This documentation aim to guide through the process of getting the ModbusBox connected to Ubidots.
@@ -28,21 +28,21 @@ ModbusBox is easy to use thanks to its embedded Web-UI accessible via Wi-Fi.  Wh
 
 ## Step-By-Step
 
-1. Sample integration scheme with Ubidots
+1. Sample Integration Scheme with Ubidots
 
-2. Hardware overview
+2. Hardware Overview
 
-3. Connecting ModbusBox to a Wi-Fi network
+3. Connecting ModbusBox to a Wi-Fi Network
 
-4. ModbusBox general configuration
+4. ModbusBox General Configuration
 
-5. ModbusBox slave configuration
+5. ModbusBox Slave Configuration
 
-6. ModbusBox cloud configuration (Ubidots)
+6. ModbusBox Cloud Configuration (Ubidots)
 
    
 
-## 1. Sample integration scheme with Ubidots
+## 1. Sample Integration Scheme with Ubidots
 
 
 
@@ -52,7 +52,7 @@ ModbusBox is easy to use thanks to its embedded Web-UI accessible via Wi-Fi.  Wh
 
 
 
-## 2. Hardware overview
+## 2. Hardware Overview
 
 Please observe carefully the ModbusBox hardware, we recommend to print this section for a better understanding of any further explanation of the modbus usage and setup.
 
@@ -175,7 +175,7 @@ The following tables shows the color patterns of different statuses and alarms i
 
 
 
-## 3. Connecting ModbusBox to a Wi-Fi network
+## 3. Connecting ModbusBox to a Wi-Fi Network
 
 Before going ahead with the next instructions make sure the ModbusBox is powered following the instruction on section 2.2 as is was previously described **Setup Mode** allows to do the following:
 
@@ -261,7 +261,7 @@ Power up ModbusBox with a suitable 12v -24v power supply following the indicatio
 
 
 
-## 4. ModbusBox general configuration
+## 4. ModbusBox General Configuration
 
 Let's move to the general configuration section by selecting the **General** tab on the vertical navbar.
 
@@ -337,12 +337,21 @@ After successfully entered the credentials, you will be redirected to the dashbo
 
 
 
-## 5. ModbusBox slave configuration
+## 5. ModbusBox Slave Configuration
 
-Working on it...
+Adding slaves
 
+Let’s move now to the slave section, and click in add.
 
+![web-ui-add-slave](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-add-slave.png)
 
-## 6. ModbusBox cloud configuration (Ubidots)
+![web-ui-add-slave](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/web-ui-new-slave-setup.png)
 
-Working on it...
+## 6. ModbusBox Cloud Configuration (Ubidots)
+
+Make sure have ready the following:
+
+- Have ready  an  stem account with Ubidots : https://ubidots.com/stem/
+- Have your Ubidots  account token on hand.  
+- Ubidots server address:  industrial.api.ubidots.com  
+- Server Port: 1883.
