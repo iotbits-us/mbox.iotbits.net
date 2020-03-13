@@ -8,11 +8,11 @@ sidebar_label: Cloud Data
 
 ## Messages
 
-ModbusBox sends data to the cloud platform in **JSON** format. Every message is a **JSON** object and carries key-value pairs, objects and arrays, depending on the type of message and the selected [Cloud Data Mode](/cloud-data#cloud-data-modes). 
+ModbusBox is able to send data to cloud platforms that support MQTT communication protocol. Data is formatted in **JSON** being every message a **JSON** object that carries key-value pairs, objects and arrays, depending on the type of message and also the selected [Cloud Data Mode](/cloud-data#cloud-data-modes). 
 
 :::note Topic and structure of messages
 
-The topic where messages are published and their structure are defined by the selected **Cloud Data Mode**. You can see detailed information in the [Cloud Data Modes](/cloud-data#cloud-data-modes) section. 
+The topic where messages are published and their structure are defined by the selected **Cloud Data Mode**. You can see detailed information in the [Cloud Data Mode](/cloud-data#cloud-data-modes) section. 
 
 :::
 
@@ -70,11 +70,11 @@ Table 2
 
 
 
-## Cloud Data Modes
+## Cloud Data Mode
 
-When sending data to the cloud platform, the MQTT topic and payload to be sent, must match the receiving platforms requirements of topic as well as the payload structure. Since one of the major features of the ModbusBox is its flexibility, we made possible to select different profiles for the topic and data structure and we called it **Cloud Data Modes**.
+When sending data to the cloud platform, the MQTT topic and payload to be sent, must match the receiving platforms requirements of topic as well as the payload structure. Since one of the major features of the ModbusBox is its flexibility, we made possible to select different profiles for the topic and data structure and we called it **Cloud Data Mode**.
 
-There are currently three **Cloud Data Modes** available:
+There are currently three **Cloud Data Mode** available:
 
 * Standard Mode
 * Ubidots Compatibility Mode
@@ -82,11 +82,11 @@ There are currently three **Cloud Data Modes** available:
 
 If you plan to use your own MQTT broker and visualization tool, use the **Standard Mode** and you should be able to adapt the receiving endpoint to the **Standard Mode**. 
 
-> We plan to add the possibility of create custom **Cloud Data Modes** in future developments. 
+> We plan to add the possibility of create custom **Cloud Data Mode** in future developments. 
 
 
 
-## Standard Mode
+### Standard Mode
 
 In the **Standard Mode**, the host which is the ModbusBox, is considered the root device. 
 
@@ -100,19 +100,7 @@ In this data mode, the following topic is used to publish all kind of messages:
 
 
 
-There are currently three type of messages that the ModbusBox publishes to the cloud:
-
-* Host Status Message
-* Slave Data Message
-* Notification Message
-
-
-
-Those messages vary on their structure. Below is a detailed description of each type of MQTT messages published from ModbusBox.
-
-
-
-### Example Host Status Message:
+#### Example Host Status Message:
 
 ```json
 {
@@ -127,7 +115,7 @@ Those messages vary on their structure. Below is a detailed description of each 
 
 
 
-### Example Slave Data Message:
+#### Example Slave Data Message:
 
 ```json
 "M200":
@@ -156,7 +144,7 @@ Those messages vary on their structure. Below is a detailed description of each 
 
 
 
-### Example Notification Message
+#### Example Notification Message
 
 ```json
 {
@@ -170,7 +158,7 @@ Those messages vary on their structure. Below is a detailed description of each 
 
 
 
-## Ubidots Compatibility Mode
+### Ubidots Compatibility Mode
 
 Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/) for details. In this data mode, each slave connected to the ModbusBox is considered as a device. 
 
@@ -210,13 +198,13 @@ The following is an Ubidots compatible message structured by ModbusBox when the 
 
 
 
-## Ubidots Compatibility Mode - Extended
+### Ubidots Compatibility Mode - Extended
 
 Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/) for details.
 
 In this data mode, the host and each slave are considered devices. The host is displayed as a device with its status variables and alarms. Each slave is shown as a separate device with its variables.
 
-### Example Host Status Message
+#### Example Host Status Message
 
 The **Host Status Message** is structured by ModbusBox to comply with Ubidots requirements as shown in the sample message below:
 
@@ -256,7 +244,7 @@ The **Host Status Message** is structured by ModbusBox to comply with Ubidots re
 
 
 
-### Example Slave Data Message
+#### Example Slave Data Message
 
 The message is structured by ModbusBox to comply with Ubidots requirements as shown in the sample message below:
 
@@ -288,7 +276,7 @@ The message is structured by ModbusBox to comply with Ubidots requirements as sh
 }
 ```
 
-### Example Notification Message
+#### Example Notification Message
 
 ```json
 {
