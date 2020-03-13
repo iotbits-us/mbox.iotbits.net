@@ -6,7 +6,7 @@ sidebar_label: Cloud Data Modes
 
 
 
-## Cloud Data Modes
+## Introduction
 
 When sending data to the cloud platform, the MQTT topic and payload to be sent, must match the receiving platforms requirements of topic as well as the payload structure. Since one of the major features of the ModbusBox is its flexibility, we made possible to select different profiles for the topic and data structure and we called it **Cloud Data Modes**.
 
@@ -22,7 +22,7 @@ If you plan to use your own MQTT broker and visualization tool, use the **Standa
 
 
 
-### Standard Mode
+## Standard Mode
 
 In the **Standard Mode**, the host which is the ModbusBox, is considered the root device. 
 
@@ -48,7 +48,7 @@ Those messages vary on their structure. Below is a detailed description of each 
 
 
 
-#### Host Status Message
+### Host Status Message
 
 The **Host Status Message** carries vital status information about the ModbusBox. **These variables are not user selectable**, however the report of those variables can be disabled as requested by the user through the WebUI. 
 
@@ -65,7 +65,7 @@ These message is published on the root of the message and may contain the follow
 
 Table 1
 
-##### Example Host Status Message:
+#### Example Host Status Message:
 
 ```json
 {
@@ -80,13 +80,13 @@ Table 1
 
 
 
-#### Slave Data Message
+### Slave Data Message
 
 Register's value polled from every slave gets publish to the MQTT cloud every **Polling Cycle** defined by the **Polling Interval** parameter.
 
 The **Slave Data Message** object contains the polled value of the register's selected by the user. This object is published in the root of the message and identified by the name of the slave.
 
-##### Example Slave Data Message:
+#### Example Slave Data Message:
 
 ```json
 "M200":
@@ -115,7 +115,7 @@ The **Slave Data Message** object contains the polled value of the register's se
 
 
 
-#### Notification Message
+### Notification Message
 
 This message type is used to send critical notifications to the cloud platform. Notifications can be disabled as requested by the user through the WebUI. Notification messages are published on the root of the message. 
 
@@ -133,7 +133,7 @@ Table 2
 
 
 
-### Ubidots Compatibility Mode
+## Ubidots Compatibility Mode
 
 Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/#mqtt) for details.
 
@@ -143,7 +143,7 @@ In this data mode, each slave is considered as a device. **Host Status** and **N
 We are currently working on this documentation. Please come back later.
 :::
 
-### Extended Ubidots Compatibility Mode
+## Extended Ubidots Compatibility Mode
 
 Ubidots has its own data structure and topic requirements. This data mode enables compatibility with Ubidots cloud platform. Please refer to the [Ubidots Documentation](https://ubidots.com/docs/hw/#mqtt) for details.
 

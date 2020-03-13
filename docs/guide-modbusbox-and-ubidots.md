@@ -1,7 +1,7 @@
 ---
 id: guide-modbusbox-and-ubidots
-title: Complete Guide to ModbusBox and Ubidots
-sidebar_label: Complete Guide to ModbusBox and Ubidots
+title: ModbusBox and Ubidots
+sidebar_label: ModbusBox and Ubidots
 ---
 
 This documentation aim to guide through the process of getting the ModbusBox connected to Ubidots.

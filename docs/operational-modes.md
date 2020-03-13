@@ -4,7 +4,7 @@ title: Operational Modes
 sidebar_label: Operational Modes
 ---
 
-## Operational Modes
+## Introduction
 
 There are two operational modes in which the ModbusBox can be operated:
 

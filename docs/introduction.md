@@ -16,7 +16,7 @@ In the middle of an era in which the IoT world has become very popular and it is
 
 ModbusBox connects modbus slaves to the cloud. Its firmware, being in charge of reading all the slaves connected to it, not only does a great job polling data from modbus slaves and sending them to the cloud through MQTT, but also makes the process steady and easy to configure and monitor.
 
-### Main Features
+## Main Features
 
 * Wi-Fi Ready
 * Embedded Web-UI for easy installation and maintenance
