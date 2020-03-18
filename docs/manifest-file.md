@@ -21,7 +21,7 @@ List of slaves currently included in the official manifest file:
 * ABB - ACS310
 * Eastron - SDM230-Modbus
 
-## Understanding the Manifest File
+## Understanding the Manifest file
 
 The manifest file is a **JSON** file with the `.mbox` extension. It contains an array of modbus slaves supported by the ModbusBox device, and a list of registers and functions of each slave. 
 
@@ -42,7 +42,7 @@ Each slave has the following properties:
 | regs16              | List of slave's 16-bits registers                        |
 | regs32              | List of slave's 32-bits registers                        |
 
-### 16-bits register
+### 16-bits Registers
 
 Each modbus slave contains a list of 16-bits registers. Each register has the following properties:
 
@@ -58,7 +58,7 @@ Each modbus slave contains a list of 16-bits registers. Each register has the fo
 | table_size |                                                              |
 | offset     |                                                              |
 
-### 32-bits register
+### 32-bits Registers
 
 Each modbus slave contains a list of 32-bits registers. Each register has the following properties:
 
