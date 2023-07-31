@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: initial-setup
 title: Initial Setup
 sidebar_label: Initial Setup

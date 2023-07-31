@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: hardware-info
 title: Hardware Information
 sidebar_label: Hardware Information
@@ -6,34 +7,26 @@ sidebar_label: Hardware Information
 
 ## Overview
 
-Our device has been carefully designed to meet our standards of durability and requirements for working in industrial environments. 
+Our device has been carefully designed to meet our standards of durability and requirements for working in industrial environments.
 
 > Its Wi-Fi connectivity complies with the **IEEE 802.11** standards and certifications provided by the manufacturer of its microcontroller, the [ESP32](https://www.espressif.com/en/products/hardware/esp32/resources) manufactured by [ESPRESSIF SYSTEMS](https://www.espressif.com/).
 
-
-
 ## Models
 
-ModbusBox its being manufactured in two variations or models. 
+ModbusBox its being manufactured in two variations or models.
 
 | Model  | Serie | Supported Slaves | Options  | Description                                                  |
 | :----: | :---: | :--------------: | :------: | :----------------------------------------------------------- |
 | MB-A4W |   A   |        4         | W: Wi-Fi | Advanced model that supports up to 4 slaves connected simultaneously |
 | MB-B1W |   B   |        1         | W: Wi-Fi | Basic model that supports only one slave                     |
 
-
-
 ## Description
 
 The following image shows the internal components, LEDs, connectors and buttons of our ModbusBox. Please observe carefully, we recommend to print this section for a better understanding of any further explanation of the modbus usage and setup.
 
-
-
 ![modbusbox-hardware-description](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/modbusbox-hardware-description.png)
 
 Figure 1
-
-
 
 | Number | Name                    | Function                                                     |
 | :----: | ----------------------- | ------------------------------------------------------------ |
@@ -51,8 +44,6 @@ Figure 1
 
 Table 1
 
-
-
 ## Microcontroller
 
 Out ModbusBox features a powerful [ESP32-WROOM-32](https://www.espressif.com/en/products/hardware/esp32/overview). This microcontroller is capable of functioning reliably in industrial environments, with an operating temperature ranging from –40°C to +125°C. Powered by advanced calibration circuitries, ESP32 can dynamically remove external circuit imperfections and adapt to changes in external conditions.
@@ -66,47 +57,36 @@ Engineered for mobile devices, wearable electronics and IoT applications, ESP32 
 
 Table 2
 
-
-
 > Please refer to the ESP32 [datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf) for detailed information
-
-
 
 ## Control Buttons
 
 As you can see in the following image, there are three control buttons located on the PCB. These control buttons allows the user to switch between operation modes and to perform other advanced procedures.
 
 ![modbusbox-control-buttons](https://raw.githubusercontent.com/iotbits-us/mbox.iotbits.net/master/static/img/modbusbox-control-buttons.png)
-
 Figure 2
-
-
 
 ### PROG Button
 
-Use this button to put the device in **Programming Mode** in order to upload a new firmware. To enter into **Programming Mode**, press and hold  **Programming** button and quick press and release **Reset** button. 
+Use this button to put the device in **Programming Mode** in order to upload a new firmware. To enter into **Programming Mode**, press and hold  **Programming** button and quick press and release **Reset** button.
 
-For more information regarding this operational mode, refer to the [Programming Mode]() documentation or the following guide: [Uploading firmware in Programming Mode](uploading-firmware-programming-mode).
+For more information regarding this operational mode, refer to the [Programming Mode](introduction) documentation or the following guide: [Uploading firmware in Programming Mode](uploading-firmware-programming-mode).
 
 ### SETUP Button
 
 This is a multifunction button that can triggered many actions depending on the state of the device.
 
-For more information regarding this operational mode, refer to the [Setup Mode]() documentation or the following guide: [Putting Device in Setup Mode]().
+For more information regarding this operational mode, refer to the [Setup Mode](introduction) documentation or the following guide: [Putting Device in Setup Mode](introduction).
 
 ### RST Button
 
 Used this button to perform a factory reset of the device and restore its defaults state.
 
-For more information regarding this operational mode, refer to the [Factory Reset]() documentation or the following guide: [Restoring the device's factory state]().
-
-
+For more information regarding this operational mode, refer to the [Factory Reset](introduction) documentation or the following guide: [Restoring the device's factory state](introduction).
 
 ## LED Indicators
 
-ModbusBox has 4 LEDs indicators and 1 multicolor LED for system status. This light indicators are very useful to quickly understand the operational status of the ModbusBox. They also helps to troubleshoot any problem with the device operation. 
-
-
+ModbusBox has 4 LEDs indicators and 1 multicolor LED for system status. This light indicators are very useful to quickly understand the operational status of the ModbusBox. They also helps to troubleshoot any problem with the device operation.
 
 ### LEDs
 
@@ -121,8 +101,6 @@ The following table aims to describe every LED of the 4 found on the ModbusBox.
 
 Table 3.1
 
-
-
 ### Status LED
 
 The following table aims to describe the Status LED.
@@ -132,8 +110,6 @@ The following table aims to describe the Status LED.
 |            7            |      D2      | System Operational Status | This RGB LED is color dependent upon device statuses and alarms and special notifications. | 🔴🟢&#x1F535; |
 
 Table 3.2
-
-
 
 #### Status LED Colors Patterns
 
@@ -152,8 +128,6 @@ The following tables shows the color patterns of different statuses and alarms i
 
 Table 3.3
 
-
-
 ##### Alarms and Notifications
 
 | Status                       | Animation  | Color | HSL Color Code |
@@ -165,8 +139,6 @@ Table 3.3
 
 Table 3.4
 
-
-
 ## Connectors
 
 ModbusBox has only one connector exposed, that is the **RJ45** connector used to connect the ModbusBox to the modbus slaves. The 24v needed for ModbusBox and provided by the slaves also comes through this same connector.
@@ -174,6 +146,3 @@ ModbusBox has only one connector exposed, that is the **RJ45** connector used to
 There are other connectors located in the ModbusBox PCB that may be used by developers when using the ModbusBox for with their own custom firmware.
 
 > Details about those additional connectors will be added to this documentation in the future.
-
-
-
