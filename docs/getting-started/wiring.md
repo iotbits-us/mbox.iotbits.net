@@ -12,7 +12,7 @@ Description of the wiring and diagram will be added to this section.
 
 
 
-> See the [How to identify my ModbusBox model]() guide.
+> See the [How to identify my ModbusBox model](introduction) guide.
 
 
 
@@ -24,7 +24,7 @@ Description of the wiring and diagram will be added to this section.
 
 
 
-> See the [How to identify my ModbusBox model]() guide.
+> See the [How to identify my ModbusBox model](introduction) guide.
 
 
 
